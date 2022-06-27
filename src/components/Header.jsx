@@ -40,7 +40,7 @@ const Header = () => {
 
                 {/* Sidebar */}
 
-                <div className={open ? "bg-white absolute z-20  left-0 bottom-0 top-0 h-[100vh] w-full flex flex-col items-center overflow-hidden" : "hidden"}>
+                <div className={open ? "bg-white absolute z-20  left-0 bottom-0 top-0 h-[100vh] max-h-[100vh] w-full flex flex-col items-center overflow-hidden" : "hidden"}>
                     <div className='absolute top-[10%] flex flex-col gap-y-5 justify-center items-center'>
                     <img src={Logo} className="w-48 mb-10" alt="Logo" />
                         <div className='login flex gap-x-10'>
